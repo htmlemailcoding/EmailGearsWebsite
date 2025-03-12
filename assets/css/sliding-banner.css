@@ -1,0 +1,21 @@
+.slide-wrapper {
+  overflow: hidden;
+  margin-bottom: 50px;
+}
+
+.sliding-background {
+  background: url("images/logo-banner2.png") repeat-x;
+  background-size: 2446px 72px;
+  height: 72px;
+  width: 5222px;
+  animation: slide 60s linear infinite;
+}
+
+@keyframes slide{
+  0%{
+    transform: translate3d(0, 0, 0);
+  }
+  100%{
+    transform: translate3d(-2611px, 0, 0);
+  }
+}
